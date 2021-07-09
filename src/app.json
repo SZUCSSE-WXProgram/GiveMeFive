@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/register/main",
+    "pages/activity/main",
+    "pages/activityAdd/main",
+    "pages/activityList/main",
+    "pages/activitySign/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#39F",
+    "navigationBarTitleText": "计软Give me five",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "usingComponents": {
+    "van-button": "/static/vant/button/index",
+    "van-icon": "/static/vant/icon/index",
+    "van-tabbar": "/static/vant/tabbar/index",
+    "van-tabbar-item": "/static/vant/tabbar-item/index",
+    "van-nav-bar": "/static/vant/nav-bar/index",
+    "van-cell": "/static/vant/cell/index",
+    "van-cell-group": "/static/vant/cell-group/index",
+    "van-field": "/static/vant/field/index",
+    "van-picker": "/static/vant/picker/index",
+    "van-popup": "/static/vant/popup/index",
+    "van-dialog": "/static/vant/dialog/index",
+    "van-transition": "/static/vant/transition/index",
+    "van-datetime-picker": "/static/vant/datetime-picker/index",
+    "van-collapse": "/static/vant/collapse/index",
+    "van-collapse-item": "/static/vant/collapse-item/index",
+    "van-checkbox": "/static/vant/checkbox/index",
+    "van-checkbox-group": "/static/vant/checkbox-group/index",
+    "van-radio": "/static/vant/radio/index",
+    "van-radio-group": "/static/vant/radio-group/index",
+    "van-notify": "/static/vant/notify/index",
+    "van-tab": "/static/vant/tab/index",
+    "van-tabs": "/static/vant/tabs/index",
+    "van-swipe-cell": "/static/vant/swipe-cell/index",
+    "van-loading": "/static/vant/loading/index",
+    "van-switch": "/static/vant/switch/index",
+    "van-switch-cell": "/static/vant/switch-cell/index",
+    "van-search": "/static/vant/search/index"
+  }
+}
