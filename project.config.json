@@ -1,0 +1,71 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"checkInvalidKey": true
+	},
+	"miniprogramRoot": "dist/wx/",
+	"compileType": "miniprogram",
+	"appid": "wx86cbfd8437294758",
+	"projectname": "wednesday",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"libVersion": "2.6.4",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 2,
+			"list": [
+				{
+					"id": 0,
+					"name": "签到管理",
+					"pathName": "pages/activitySign/main",
+					"query": "id=72",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的帮扶",
+					"pathName": "pages/academic/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "注册页面",
+					"pathName": "pages/identity/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "选择身份",
+					"pathName": "pages/identity/main",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}
