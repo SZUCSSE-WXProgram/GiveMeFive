@@ -60,7 +60,7 @@
         show: false,
         name: '',
         studentId: null,
-        myClassName: '本科2019级计算机科学与技术01',
+        myClassName: '本科2021级软件工程（腾班）',
         phone: null,
         classList: [
           {
@@ -109,8 +109,8 @@
         } else if (!this.studentId) {
           Notify('请输入学号')
           return
-        } else if (!this.studentId.match(/^\d+$/)) {
-          Notify('学号应为数字')
+        } else if (!this.studentId.match(/^\d+$/) || !this.studentId.match(/^\d{10}$/)) {
+          Notify('学号应为10位数字')
           return
         } else if (!this.isTeacher && !this.phone) {
           Notify('请输入手机号码')
