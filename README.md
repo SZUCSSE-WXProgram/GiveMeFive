@@ -1,4 +1,8 @@
 # Give me five
+
+Wechat miniprogramme for College of Computer Science and Software Engineer, Shenzhen University.
+Mainly used for practical activity viewing, registration and sign-in records.
+
 深圳大学计算机与软件学院 Give me five 项目 - 小程序
 
 该项目使用：
